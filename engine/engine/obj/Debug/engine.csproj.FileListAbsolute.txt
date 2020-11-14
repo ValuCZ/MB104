@@ -1,0 +1,11 @@
+C:\Users\ovalu\source\repos\engine\engine\bin\Debug\engine.exe.config
+C:\Users\ovalu\source\repos\engine\engine\bin\Debug\engine.exe
+C:\Users\ovalu\source\repos\engine\engine\bin\Debug\engine.pdb
+C:\Users\ovalu\source\repos\engine\engine\obj\Debug\engine.csprojAssemblyReference.cache
+C:\Users\ovalu\source\repos\engine\engine\obj\Debug\engine.Properties.Resources.resources
+C:\Users\ovalu\source\repos\engine\engine\obj\Debug\engine.csproj.GenerateResource.cache
+C:\Users\ovalu\source\repos\engine\engine\obj\Debug\engine.csproj.CoreCompileInputs.cache
+C:\Users\ovalu\source\repos\engine\engine\obj\Debug\engine.exe
+C:\Users\ovalu\source\repos\engine\engine\obj\Debug\engine.pdb
+C:\Users\ovalu\source\repos\engine\engine\obj\Debug\engine.chyba.resources
+C:\Users\ovalu\source\repos\engine\engine\obj\Debug\engine.MainForm.resources
