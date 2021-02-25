@@ -28,30 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.koeficienty = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.praveCislo = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.leveCislo = new System.Windows.Forms.TextBox();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.E = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.m = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.q = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.p = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.listBox3 = new System.Windows.Forms.ListBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -105,17 +83,36 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.button10 = new System.Windows.Forms.Button();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.koeficienty = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.praveCislo = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.leveCislo = new System.Windows.Forms.TextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.E = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.m = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.q = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.p = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.tabPage8.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -135,236 +132,9 @@
             this.tabControl1.Size = new System.Drawing.Size(1273, 660);
             this.tabControl1.TabIndex = 0;
             // 
-            // tabPage1
-            // 
-            this.tabPage1.Controls.Add(this.pictureBox2);
-            this.tabPage1.Controls.Add(this.pictureBox1);
-            this.tabPage1.Controls.Add(this.listBox1);
-            this.tabPage1.Controls.Add(this.button1);
-            this.tabPage1.Controls.Add(this.koeficienty);
-            this.tabPage1.Controls.Add(this.label3);
-            this.tabPage1.Controls.Add(this.praveCislo);
-            this.tabPage1.Controls.Add(this.label2);
-            this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Controls.Add(this.leveCislo);
-            this.tabPage1.Location = new System.Drawing.Point(4, 29);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1265, 627);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "lin.kód";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::engine.Properties.Resources.unicorn;
-            this.pictureBox2.Location = new System.Drawing.Point(28, 133);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(228, 330);
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::engine.Properties.Resources.flag_of_taiwan;
-            this.pictureBox1.Location = new System.Drawing.Point(882, 209);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(307, 196);
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(277, 133);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(532, 344);
-            this.listBox1.TabIndex = 7;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(919, 47);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 50);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "start";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // koeficienty
-            // 
-            this.koeficienty.Location = new System.Drawing.Point(682, 59);
-            this.koeficienty.Name = "koeficienty";
-            this.koeficienty.Size = new System.Drawing.Size(180, 26);
-            this.koeficienty.TabIndex = 5;
-            this.koeficienty.Text = "111001";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(503, 62);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(160, 20);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "koeficienty polynomu:";
-            // 
-            // praveCislo
-            // 
-            this.praveCislo.Location = new System.Drawing.Point(323, 60);
-            this.praveCislo.Name = "praveCislo";
-            this.praveCislo.Size = new System.Drawing.Size(67, 26);
-            this.praveCislo.TabIndex = 3;
-            this.praveCislo.Text = "9";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(290, 63);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(27, 20);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "na";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(119, 63);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 20);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "druh kodu:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // leveCislo
-            // 
-            this.leveCislo.Location = new System.Drawing.Point(215, 60);
-            this.leveCislo.Name = "leveCislo";
-            this.leveCislo.Size = new System.Drawing.Size(66, 26);
-            this.leveCislo.TabIndex = 0;
-            this.leveCislo.Text = "14";
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.E);
-            this.tabPage2.Controls.Add(this.label7);
-            this.tabPage2.Controls.Add(this.listBox2);
-            this.tabPage2.Controls.Add(this.button3);
-            this.tabPage2.Controls.Add(this.button2);
-            this.tabPage2.Controls.Add(this.m);
-            this.tabPage2.Controls.Add(this.label6);
-            this.tabPage2.Controls.Add(this.q);
-            this.tabPage2.Controls.Add(this.label5);
-            this.tabPage2.Controls.Add(this.p);
-            this.tabPage2.Controls.Add(this.label4);
-            this.tabPage2.Location = new System.Drawing.Point(4, 29);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1265, 627);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "RSA";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // E
-            // 
-            this.E.Location = new System.Drawing.Point(302, 54);
-            this.E.Name = "E";
-            this.E.Size = new System.Drawing.Size(47, 26);
-            this.E.TabIndex = 10;
-            this.E.Text = "487";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(274, 59);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(22, 20);
-            this.label7.TabIndex = 9;
-            this.label7.Text = "e:";
-            // 
-            // listBox2
-            // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.ItemHeight = 20;
-            this.listBox2.Location = new System.Drawing.Point(0, 119);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(1265, 504);
-            this.listBox2.TabIndex = 8;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(654, 45);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(79, 41);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "dekoduj";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(548, 45);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 41);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Koduj";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // m
-            // 
-            this.m.Location = new System.Drawing.Point(456, 51);
-            this.m.Name = "m";
-            this.m.Size = new System.Drawing.Size(48, 26);
-            this.m.TabIndex = 5;
-            this.m.Text = "25";
-            this.m.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(424, 56);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(26, 20);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "m:";
-            // 
-            // q
-            // 
-            this.q.Location = new System.Drawing.Point(171, 54);
-            this.q.Name = "q";
-            this.q.Size = new System.Drawing.Size(43, 26);
-            this.q.TabIndex = 3;
-            this.q.Text = "29";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(141, 57);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(22, 20);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "q:";
-            // 
-            // p
-            // 
-            this.p.Location = new System.Drawing.Point(82, 54);
-            this.p.Name = "p";
-            this.p.Size = new System.Drawing.Size(39, 26);
-            this.p.TabIndex = 1;
-            this.p.Text = "23";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(54, 57);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(22, 20);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "p:";
-            // 
             // tabPage3
             // 
+            this.tabPage3.BackColor = System.Drawing.Color.Beige;
             this.tabPage3.Controls.Add(this.listBox3);
             this.tabPage3.Controls.Add(this.label11);
             this.tabPage3.Controls.Add(this.label10);
@@ -375,12 +145,12 @@
             this.tabPage3.Controls.Add(this.label9);
             this.tabPage3.Controls.Add(this.label8);
             this.tabPage3.Controls.Add(this.button4);
+            this.tabPage3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(1265, 627);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Rovnice";
-            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // listBox3
             // 
@@ -463,26 +233,27 @@
             // 
             this.button4.Location = new System.Drawing.Point(679, 24);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(74, 33);
+            this.button4.Size = new System.Drawing.Size(89, 33);
             this.button4.TabIndex = 0;
-            this.button4.Text = "Start";
+            this.button4.Text = "Spočítat";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // tabPage4
             // 
+            this.tabPage4.BackColor = System.Drawing.Color.MintCream;
             this.tabPage4.Controls.Add(this.button5);
             this.tabPage4.Controls.Add(this.label13);
             this.tabPage4.Controls.Add(this.d1);
             this.tabPage4.Controls.Add(this.d0);
             this.tabPage4.Controls.Add(this.label12);
             this.tabPage4.Controls.Add(this.listBox4);
+            this.tabPage4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(1265, 627);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Inverze";
-            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
@@ -490,7 +261,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(95, 47);
             this.button5.TabIndex = 5;
-            this.button5.Text = "Start";
+            this.button5.Text = "Spočítat";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -539,6 +310,7 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.BackColor = System.Drawing.Color.LightCyan;
             this.tabPage5.Controls.Add(this.Modul);
             this.tabPage5.Controls.Add(this.label17);
             this.tabPage5.Controls.Add(this.label15);
@@ -547,12 +319,12 @@
             this.tabPage5.Controls.Add(this.label14);
             this.tabPage5.Controls.Add(this.listBox5);
             this.tabPage5.Controls.Add(this.button6);
+            this.tabPage5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tabPage5.Location = new System.Drawing.Point(4, 29);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Size = new System.Drawing.Size(1265, 627);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Umocňovač";
-            this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // Modul
             // 
@@ -620,12 +392,13 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(90, 53);
             this.button6.TabIndex = 0;
-            this.button6.Text = "start";
+            this.button6.Text = "Spočítat";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // tabPage6
             // 
+            this.tabPage6.BackColor = System.Drawing.Color.OldLace;
             this.tabPage6.Controls.Add(this.listBox6);
             this.tabPage6.Controls.Add(this.label19);
             this.tabPage6.Controls.Add(this.rabM);
@@ -635,12 +408,12 @@
             this.tabPage6.Controls.Add(this.label16);
             this.tabPage6.Controls.Add(this.button8);
             this.tabPage6.Controls.Add(this.button7);
+            this.tabPage6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tabPage6.Location = new System.Drawing.Point(4, 29);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Size = new System.Drawing.Size(1265, 627);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Rabin.kód";
-            this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // listBox6
             // 
@@ -709,7 +482,7 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(106, 41);
             this.button8.TabIndex = 1;
-            this.button8.Text = "dekóduj";
+            this.button8.Text = "Dekódovat";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
@@ -719,22 +492,23 @@
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(102, 41);
             this.button7.TabIndex = 0;
-            this.button7.Text = "kóduj";
+            this.button7.Text = "Kódovat";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // tabPage7
             // 
+            this.tabPage7.BackColor = System.Drawing.Color.DarkKhaki;
             this.tabPage7.Controls.Add(this.listBox7);
             this.tabPage7.Controls.Add(this.label20);
             this.tabPage7.Controls.Add(this.primKoren);
             this.tabPage7.Controls.Add(this.button9);
+            this.tabPage7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tabPage7.Location = new System.Drawing.Point(4, 29);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Size = new System.Drawing.Size(1265, 627);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Pri.kořen";
-            this.tabPage7.UseVisualStyleBackColor = true;
             // 
             // listBox7
             // 
@@ -768,7 +542,7 @@
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(88, 35);
             this.button9.TabIndex = 0;
-            this.button9.Text = "start";
+            this.button9.Text = "Spočítat";
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
@@ -784,6 +558,7 @@
             this.tabPage8.Controls.Add(this.label22);
             this.tabPage8.Controls.Add(this.label21);
             this.tabPage8.Controls.Add(this.button10);
+            this.tabPage8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tabPage8.Location = new System.Drawing.Point(4, 29);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Size = new System.Drawing.Size(1265, 627);
@@ -874,9 +649,226 @@
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(90, 38);
             this.button10.TabIndex = 0;
-            this.button10.Text = "start";
+            this.button10.Text = "Spočítat";
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackgroundImage = global::engine.Properties.Resources.mathematics_1509559__340;
+            this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage1.Controls.Add(this.listBox1);
+            this.tabPage1.Controls.Add(this.button1);
+            this.tabPage1.Controls.Add(this.koeficienty);
+            this.tabPage1.Controls.Add(this.label3);
+            this.tabPage1.Controls.Add(this.praveCislo);
+            this.tabPage1.Controls.Add(this.label2);
+            this.tabPage1.Controls.Add(this.label1);
+            this.tabPage1.Controls.Add(this.leveCislo);
+            this.tabPage1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1265, 627);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "lin.kód";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 20;
+            this.listBox1.Location = new System.Drawing.Point(68, 133);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(741, 384);
+            this.listBox1.TabIndex = 7;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(821, 15);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(105, 50);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Generovat";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // koeficienty
+            // 
+            this.koeficienty.Location = new System.Drawing.Point(208, 42);
+            this.koeficienty.Name = "koeficienty";
+            this.koeficienty.Size = new System.Drawing.Size(96, 26);
+            this.koeficienty.TabIndex = 5;
+            this.koeficienty.Text = "111001";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label3.Location = new System.Drawing.Point(42, 45);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(160, 20);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "koeficienty polynomu:";
+            // 
+            // praveCislo
+            // 
+            this.praveCislo.Location = new System.Drawing.Point(237, 15);
+            this.praveCislo.Name = "praveCislo";
+            this.praveCislo.Size = new System.Drawing.Size(67, 26);
+            this.praveCislo.TabIndex = 3;
+            this.praveCislo.Text = "9";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(204, 18);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(27, 20);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "na";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(42, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(84, 20);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "druh kodu:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // leveCislo
+            // 
+            this.leveCislo.Location = new System.Drawing.Point(132, 16);
+            this.leveCislo.Name = "leveCislo";
+            this.leveCislo.Size = new System.Drawing.Size(66, 26);
+            this.leveCislo.TabIndex = 0;
+            this.leveCislo.Text = "14";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage2.BackgroundImage")));
+            this.tabPage2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.tabPage2.Controls.Add(this.E);
+            this.tabPage2.Controls.Add(this.label7);
+            this.tabPage2.Controls.Add(this.listBox2);
+            this.tabPage2.Controls.Add(this.button3);
+            this.tabPage2.Controls.Add(this.button2);
+            this.tabPage2.Controls.Add(this.m);
+            this.tabPage2.Controls.Add(this.label6);
+            this.tabPage2.Controls.Add(this.q);
+            this.tabPage2.Controls.Add(this.label5);
+            this.tabPage2.Controls.Add(this.p);
+            this.tabPage2.Controls.Add(this.label4);
+            this.tabPage2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1265, 627);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "RSA";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // E
+            // 
+            this.E.Location = new System.Drawing.Point(27, 63);
+            this.E.Name = "E";
+            this.E.Size = new System.Drawing.Size(47, 26);
+            this.E.TabIndex = 10;
+            this.E.Text = "487";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(8, 66);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(22, 20);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "e:";
+            // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 20;
+            this.listBox2.Location = new System.Drawing.Point(0, 159);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(1265, 464);
+            this.listBox2.TabIndex = 8;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(109, 112);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(104, 41);
+            this.button3.TabIndex = 7;
+            this.button3.Text = "Dekódovat";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(15, 112);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(88, 41);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "Kódovat";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // m
+            // 
+            this.m.Location = new System.Drawing.Point(105, 63);
+            this.m.Name = "m";
+            this.m.Size = new System.Drawing.Size(48, 26);
+            this.m.TabIndex = 5;
+            this.m.Text = "25";
+            this.m.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(77, 65);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(26, 20);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "m:";
+            // 
+            // q
+            // 
+            this.q.Location = new System.Drawing.Point(92, 31);
+            this.q.Name = "q";
+            this.q.Size = new System.Drawing.Size(43, 26);
+            this.q.TabIndex = 3;
+            this.q.Text = "29";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(70, 33);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(22, 20);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "q:";
+            // 
+            // p
+            // 
+            this.p.Location = new System.Drawing.Point(27, 30);
+            this.p.Name = "p";
+            this.p.Size = new System.Drawing.Size(39, 26);
+            this.p.TabIndex = 1;
+            this.p.Text = "23";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(8, 31);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(22, 20);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "p:";
             // 
             // MainForm
             // 
@@ -884,15 +876,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1273, 660);
             this.Controls.Add(this.tabControl1);
+            this.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = "MB104 cheat app ";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.tabPage4.ResumeLayout(false);
@@ -905,6 +894,10 @@
             this.tabPage7.PerformLayout();
             this.tabPage8.ResumeLayout(false);
             this.tabPage8.PerformLayout();
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -986,8 +979,6 @@
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.ListBox listBox8;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 

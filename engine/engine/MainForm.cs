@@ -17,8 +17,6 @@ namespace engine
         public MainForm()
         {
             InitializeComponent();
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -192,6 +190,14 @@ namespace engine
             Diffie_Hellman.Run(listBox8, p, g, a, b);
         }
 
-        
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
