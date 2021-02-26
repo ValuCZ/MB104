@@ -11,7 +11,8 @@ Step-by-step nástroj pro řešení algoritmických problémů předmětu diskr�
 
 **funkce:**
 - Postup výpočtu primitivního kořene
-- Výpočet postupu alogoritmu Diffie-Hellman pro bezpečnou výměnu klíčů v síti 
+- Výpočet postupu alogoritmu Diffie-Hellman pro bezpečnou výměnu klíčů v síti
+- Postup kódování a dekódování zprávy šifrou RSA 
 - Postup výpočtu soustavy 2 rovnic lineárních kongruencí
 - generátor matice polynomiálního kódu
 - a další :-) 
